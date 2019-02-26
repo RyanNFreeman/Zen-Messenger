@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Login from './comp/Login/Login.js';
 import './App.css';
 import Display from './comp/auth.js'
 
@@ -13,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Display />
+        <Login />
       </div>
     );
   }
