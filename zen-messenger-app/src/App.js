@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ThreadDisplay from './comp/MessageBoard/ThreadDisplay.js';
 import './App.css';
+import Display from './comp/auth.js'
 
 class App extends Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ThreadDisplay />
+        <Display />
       </div>
     );
   }
